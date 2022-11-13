@@ -19,12 +19,16 @@ def main():
     attributesfile = os.path.expanduser(os.path.join(ROOT, "data", "attributes.txt"))
 
     # Load data from relevant files
-    xtrain = np.loadtxt(datafile, dtype = float, delimiter=",", ndmin=2)
+    xtrain = np.loadtxt(datafile, dtype = float, delimiter=" ", ndmin=2)
     ytrain = np.loadtxt(labelfile, dtype = int)
     attributes = np.loadtxt(attributesfile, dtype = str)
+    
+    unique, counts = np.unique(ytrain, return_counts=True)
+    print(unique)
+    print(counts)
 
     # Train a decision tree via information gain on the training data
-    clf = DecisionTreeClassifier()
+    clf = DecisionTreeClassifier(criterion = "entropy", max_depth = 6)
     clf = clf.fit(xtrain, ytrain)
 
     # Test the decision tree
@@ -35,8 +39,11 @@ def main():
     print("Training Accuracy: " + str((len(trainerror) - sum(trainerror)) / len(trainerror)))
 
     # Visualize the tree using matplotlib and plot_tree
-    fig = plt.figure(figsize=(50,50))
-    plot_tree(clf, feature_names = attributes, filled = True, fontsize = 28, class_names = ["0", "1"], rounded = True)
+    fig = plt.figure(figsize=(100,100))
+    #pdb.set_trace()
+    plot_tree(clf, feature_names = attributes, filled = True, fontsize = 14, rounded = True)
+    
+    
     fig.show()
     fig.savefig("decistion_tree.png")
 
