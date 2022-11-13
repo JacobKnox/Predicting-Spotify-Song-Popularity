@@ -18,19 +18,24 @@ parser.add_argument('-y', '--labels',
 parser.add_argument('-s', '--save',
                     help='Path to file where parsed data will be saved, defaults to ROOT/data.txt',
                     default=os.path.join(ROOT, 'data.txt'))
+parser.add_argument('-a', '--attributes',
+                    help='Path to file where attributes will be saved, defaults to ROOT/data.txt',
+                    default=os.path.join(ROOT, 'attributes.txt'))
 
 
 def main(args):
     # Parse input arguments
     datafile = os.path.expanduser(args.data)
     labelfile = os.path.expanduser(args.labels)
+    attributefile = os.path.expanduser(args.attributes)
     savefile = os.path.expanduser(args.save)
 
     data = np.loadtxt(datafile, dtype=str, delimiter=',', encoding="utf8", usecols=np.arange(2,16))
-    print(data[0])
-    labels = np.delete(data[0], 5)
+    attributes = np.delete(data[0], 5)
     data = data[1:]
+    labels = data[:, 3]
 
+    np.savetxt(attributefile, attributes, fmt='%s')
     np.savetxt(labelfile, labels, fmt='%s')
     np.savetxt(savefile, data, fmt='%s')
     
