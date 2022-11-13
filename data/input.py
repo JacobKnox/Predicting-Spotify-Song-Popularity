@@ -30,10 +30,12 @@ def main(args):
     attributefile = os.path.expanduser(args.attributes)
     savefile = os.path.expanduser(args.save)
 
-    data = np.loadtxt(datafile, dtype=str, delimiter=',', encoding="utf8", usecols=np.arange(2,16))
-    attributes = np.delete(data[0], 5)
-    data = data[1:]
-    labels = data[:, 3]
+    data = np.loadtxt(datafile, dtype=str, delimiter=',', encoding="utf8", usecols=np.arange(2,16)) # load in the data, ignoring the artist and song name as well as the genres
+    attributes = np.delete(data[0], 3) # get the attributes, ignoring the popularity one
+    data = data[1:] # get rid of the first row in the data, which is the attributes
+    labels = data[:, 3] # get the labels
+    data = np.delete(data, 3, 1) # delete the third column in the data, which is the labels
+    data[:, 1] = (data[:, 1] == 'True').astype(int) # converts 'True'/'False' under 'explicit' to 1/0
 
     np.savetxt(attributefile, attributes, fmt='%s')
     np.savetxt(labelfile, labels, fmt='%s')
