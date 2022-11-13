@@ -1,5 +1,5 @@
 # Predicting Spotify Song Popularity
 ## Authors
-[Jacob Knox](https://github.com/JacobKnox)( @JacobKnox )
+[Jacob Knox](https://github.com/JacobKnox)
 
-[Noah Gabryluk](https://github.com/ngabryluk)( @ngabryluk )
+[Noah Gabryluk](https://github.com/ngabryluk)
