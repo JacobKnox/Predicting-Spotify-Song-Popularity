@@ -1,0 +1,13 @@
+duration_ms
+explicit
+year
+popularity
+danceability
+key
+loudness
+mode
+speechiness
+acousticness
+instrumentalness
+liveness
+valence
