@@ -1,8 +1,8 @@
 duration_ms
 explicit
 year
-popularity
 danceability
+energy
 key
 loudness
 mode
