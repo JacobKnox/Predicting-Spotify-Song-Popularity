@@ -2,6 +2,12 @@ import numpy as np
 from sklearn.tree import DecisionTreeClassifier
 from time import time
 
+###########################################
+#                 WARNING                 #
+#        DO NOT CALL THIS FUNCTION        #
+# WITHOUT NARROWING SOME PARAMETERS FIRST #
+###########################################
+
 def get_best_tree(data,
                   labels,
                   criterions = ['gini', 'entropy', 'log_loss'],
@@ -23,11 +29,9 @@ def get_best_tree(data,
     # initiate the best tree as a new DecisionTreeClassifier
     best_tree = DecisionTreeClassifier()
 
-    # for each possible criterion
+    # for every possible comination of the specified parameters
     for crit in criterions:
-        # for each possible splitter
         for split in splitters:
-            # for each specified max_depth
             for depth in depths:
                 for sample_split in min_samples_split:
                     for sample_leaf in min_samples_leaf:
