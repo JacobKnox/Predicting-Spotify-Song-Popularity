@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 import pdb
-from sklearn.tree import DecisionTreeClassifier, plot_tree
-from sklearn.metrics import confusion_matrix
+from sklearn.tree import plot_tree
+from utils import get_best_tree
 
 path = os.getcwd()
 ROOT = os.path.dirname(path)  # root directory of this code
@@ -19,33 +19,24 @@ def main():
     attributesfile = os.path.expanduser(os.path.join(ROOT, "data", "attributes.txt"))
 
     # Load data from relevant files
-    xtrain = np.loadtxt(datafile, dtype = float, delimiter=" ", ndmin=2)
-    ytrain = np.loadtxt(labelfile, dtype = int)
+    data = np.loadtxt(datafile, dtype = float, delimiter=" ", ndmin=2)
+    labels = np.loadtxt(labelfile, dtype = int)
     attributes = np.loadtxt(attributesfile, dtype = str)
     
-    unique, counts = np.unique(ytrain, return_counts=True)
-    print(unique)
-    print(counts)
+    # get the best possible tree for our data, from testing we've determined the maximum depth a DecisionTreeClassifier will go for this data is 16
+    tree, best, time = get_best_tree(data, labels, depths = np.arange(1, 17), criterions=['entropy'], with_best = True, with_time = True)
 
-    # Train a decision tree via information gain on the training data
-    clf = DecisionTreeClassifier(criterion = "entropy", max_depth = 6)
-    clf = clf.fit(xtrain, ytrain)
+    print(f'Best Testing MAE: {best} from tree \n{tree.get_params()}\nwith {tree.get_n_leaves()} leaves and {tree.get_depth()} depth, found in {time} seconds.')
 
-    # Test the decision tree
-    train = clf.predict(xtrain)
-
-    # Compare training and test accuracy
-    trainerror = np.abs(ytrain - train)
-    print("Training Accuracy: " + str((len(trainerror) - sum(trainerror)) / len(trainerror)))
+    print(f'Estimated Accuracy: {1 - (best / np.amax(labels))}')
 
     # Visualize the tree using matplotlib and plot_tree
-    fig = plt.figure(figsize=(100,100))
-    #pdb.set_trace()
-    plot_tree(clf, feature_names = attributes, filled = True, fontsize = 14, rounded = True)
+    #fig = plt.figure(figsize=(100,100))
+    #plot_tree(tree, feature_names = attributes, filled = True, fontsize = 20, rounded = True, label=None)
     
     
-    fig.show()
-    fig.savefig("decistion_tree.png")
+    #fig.show()
+    #fig.savefig("decistion_tree.png")
 
 
 if __name__ == '__main__':
