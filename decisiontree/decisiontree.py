@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 import pdb
+import sklearn.tree as tree
 from sklearn.tree import plot_tree
 from utils import get_best_tree
 
@@ -24,7 +25,7 @@ def main():
     attributes = np.loadtxt(attributesfile, dtype = str)
     
     # get the best possible tree for our data, from testing we've determined the maximum depth a DecisionTreeClassifier will go for this data is 16
-    tree, best, time = get_best_tree(data,
+    best_tree, best, time = get_best_tree(data,
                                      labels,
                                      depths = [None],
                                      min_samples_split = [2],
@@ -36,13 +37,17 @@ def main():
                                      with_time = True,
                                      sample_size = 200)
 
-    print(f'Best Testing MAE: {best} from tree \n{tree.get_params()}\nwith {tree.get_n_leaves()} leaves and {tree.get_depth()} depth, found in {time} seconds.')
+    print(f'Best Testing MAE: {best} from tree \n{best_tree.get_params()}\nwith {best_tree.get_n_leaves()} leaves and {best_tree.get_depth()} depth, found in {time} seconds.')
 
     print(f'Estimated Accuracy: {1 - (best / np.amax(labels))}')
 
     # Visualize the tree using matplotlib and plot_tree
     #fig = plt.figure(figsize=(100,100))
     #plot_tree(tree, feature_names = attributes, filled = True, fontsize = 20, rounded = True, label=None)
+    
+    text_representation = tree.export_text(best_tree, feature_names=attributes.tolist())
+    with open("decistion_tree.log", "w") as fout:
+        fout.write(text_representation)
     
     
     #fig.show()
