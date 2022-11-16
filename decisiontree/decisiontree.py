@@ -24,7 +24,17 @@ def main():
     attributes = np.loadtxt(attributesfile, dtype = str)
     
     # get the best possible tree for our data, from testing we've determined the maximum depth a DecisionTreeClassifier will go for this data is 16
-    tree, best, time = get_best_tree(data, labels, depths = np.arange(1, 17), criterions=['entropy'], with_best = True, with_time = True)
+    tree, best, time = get_best_tree(data,
+                                     labels,
+                                     depths = [None],
+                                     min_samples_split = [2],
+                                     min_samples_leaf = [1],
+                                     max_leaf_nodes = [None],
+                                     ccp_alpha = [0.0],
+                                     criterions = ["entropy"],
+                                     with_best = True,
+                                     with_time = True,
+                                     sample_size = 200)
 
     print(f'Best Testing MAE: {best} from tree \n{tree.get_params()}\nwith {tree.get_n_leaves()} leaves and {tree.get_depth()} depth, found in {time} seconds.')
 
