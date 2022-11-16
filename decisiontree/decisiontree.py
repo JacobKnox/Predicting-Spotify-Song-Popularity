@@ -1,5 +1,5 @@
 # decisiontree.py
-"""Predict Parkinson's disease based on dysphonia measurements using a decision tree."""
+"""Predict Spotify song popularity based on numerous parameters using a decision tree."""
 
 import matplotlib.pyplot as plt
 import numpy as np
