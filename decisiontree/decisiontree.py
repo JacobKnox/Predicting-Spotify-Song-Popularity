@@ -1,12 +1,10 @@
 # decisiontree.py
 """Predict Spotify song popularity based on numerous parameters using a decision tree."""
 
-import matplotlib.pyplot as plt
 import numpy as np
 import os
 import pdb
 import sklearn.tree as tree
-from sklearn.tree import plot_tree
 from utils import get_best_tree
 
 path = os.getcwd()
@@ -41,17 +39,10 @@ def main():
 
     print(f'Estimated Accuracy: {1 - (best / np.amax(labels))}')
 
-    # Visualize the tree using matplotlib and plot_tree
-    #fig = plt.figure(figsize=(100,100))
-    #plot_tree(tree, feature_names = attributes, filled = True, fontsize = 20, rounded = True, label=None)
-    
+    # Visualize the tree using tree.export_txt
     text_representation = tree.export_text(best_tree, feature_names=attributes.tolist())
     with open("decistion_tree.log", "w") as fout:
         fout.write(text_representation)
-    
-    
-    #fig.show()
-    #fig.savefig("decistion_tree.png")
 
 
 if __name__ == '__main__':
