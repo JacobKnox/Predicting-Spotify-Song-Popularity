@@ -6,6 +6,8 @@ import os
 import pdb
 from keras.models import Sequential
 from keras.layers import Input, Dense
+from keras.optimizers import SGD
+from keras.callbacks import EarlyStopping
 
 ROOT = os.path.dirname(os.path.dirname(__file__)) # Root directory of this code
 
@@ -34,7 +36,30 @@ def main():
     model.add(Dense(units=numOutputs, activation='softmax', name='output'))
     model.summary()
 
-    pdb.set_trace()
+    input("Press <Enter> to train this network...")
+
+    model.compile(
+        loss='mean_squared_error',
+        optimizer=SGD(learning_rate=0.001)
+        metrics=['accuracy']
+    )
+
+    # Add an Early Stopping callback
+    callback = EarlyStopping(
+        monitor='loss',
+        min_delta=1e-4,
+        patience=5,
+        verbose=1
+    )
+
+    # Train the network
+    history = model.fit(xtrain, ytrain,
+        batch_size=50,
+        epochs=40,
+        verbose=1,
+        callbacks=[callback],
+        validation_data=(xtest, ytest)
+    )
 
 if __name__ == "__main__":
     main()
