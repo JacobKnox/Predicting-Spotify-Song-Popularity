@@ -1,0 +1,1138 @@
+|--- speechiness <= 0.03
+|   |--- speechiness <= 0.02
+|   |   |--- loudness <= -8.14
+|   |   |   |--- class: 62
+|   |   |--- loudness >  -8.14
+|   |   |   |--- duration_ms <= 237526.00
+|   |   |   |   |--- duration_ms <= 214213.00
+|   |   |   |   |   |--- class: 53
+|   |   |   |   |--- duration_ms >  214213.00
+|   |   |   |   |   |--- class: 58
+|   |   |   |--- duration_ms >  237526.00
+|   |   |   |   |--- valence <= 0.26
+|   |   |   |   |   |--- class: 85
+|   |   |   |   |--- valence >  0.26
+|   |   |   |   |   |--- class: 56
+|   |--- speechiness >  0.02
+|   |   |--- explicit <= 0.50
+|   |   |   |--- year <= 2000.50
+|   |   |   |   |--- class: 68
+|   |   |   |--- year >  2000.50
+|   |   |   |   |--- year <= 2011.50
+|   |   |   |   |   |--- danceability <= 0.46
+|   |   |   |   |   |   |--- loudness <= -7.10
+|   |   |   |   |   |   |   |--- class: 70
+|   |   |   |   |   |   |--- loudness >  -7.10
+|   |   |   |   |   |   |   |--- class: 82
+|   |   |   |   |   |--- danceability >  0.46
+|   |   |   |   |   |   |--- mode <= 0.50
+|   |   |   |   |   |   |   |--- valence <= 0.47
+|   |   |   |   |   |   |   |   |--- year <= 2008.50
+|   |   |   |   |   |   |   |   |   |--- loudness <= -6.45
+|   |   |   |   |   |   |   |   |   |   |--- class: 74
+|   |   |   |   |   |   |   |   |   |--- loudness >  -6.45
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- year >  2008.50
+|   |   |   |   |   |   |   |   |   |--- class: 2
+|   |   |   |   |   |   |   |--- valence >  0.47
+|   |   |   |   |   |   |   |   |--- speechiness <= 0.03
+|   |   |   |   |   |   |   |   |   |--- class: 62
+|   |   |   |   |   |   |   |   |--- speechiness >  0.03
+|   |   |   |   |   |   |   |   |   |--- class: 59
+|   |   |   |   |   |   |--- mode >  0.50
+|   |   |   |   |   |   |   |--- speechiness <= 0.03
+|   |   |   |   |   |   |   |   |--- class: 69
+|   |   |   |   |   |   |   |--- speechiness >  0.03
+|   |   |   |   |   |   |   |   |--- liveness <= 0.08
+|   |   |   |   |   |   |   |   |   |--- class: 68
+|   |   |   |   |   |   |   |   |--- liveness >  0.08
+|   |   |   |   |   |   |   |   |   |--- instrumentalness <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- speechiness <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |   |--- speechiness >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- instrumentalness >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- danceability <= 0.51
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 48
+|   |   |   |   |   |   |   |   |   |   |--- danceability >  0.51
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- year >  2011.50
+|   |   |   |   |   |--- danceability <= 0.64
+|   |   |   |   |   |   |--- acousticness <= 0.12
+|   |   |   |   |   |   |   |--- class: 48
+|   |   |   |   |   |   |--- acousticness >  0.12
+|   |   |   |   |   |   |   |--- duration_ms <= 243679.50
+|   |   |   |   |   |   |   |   |--- class: 71
+|   |   |   |   |   |   |   |--- duration_ms >  243679.50
+|   |   |   |   |   |   |   |   |--- class: 65
+|   |   |   |   |   |--- danceability >  0.64
+|   |   |   |   |   |   |--- duration_ms <= 243919.50
+|   |   |   |   |   |   |   |--- class: 66
+|   |   |   |   |   |   |--- duration_ms >  243919.50
+|   |   |   |   |   |   |   |--- class: 30
+|   |   |--- explicit >  0.50
+|   |   |   |--- class: 68
+|--- speechiness >  0.03
+|   |--- valence <= 0.68
+|   |   |--- year <= 2010.50
+|   |   |   |--- year <= 2004.50
+|   |   |   |   |--- loudness <= -5.99
+|   |   |   |   |   |--- instrumentalness <= 0.55
+|   |   |   |   |   |   |--- valence <= 0.64
+|   |   |   |   |   |   |   |--- duration_ms <= 252726.00
+|   |   |   |   |   |   |   |   |--- danceability <= 0.56
+|   |   |   |   |   |   |   |   |   |--- liveness <= 0.09
+|   |   |   |   |   |   |   |   |   |   |--- acousticness <= 0.27
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 59
+|   |   |   |   |   |   |   |   |   |   |--- acousticness >  0.27
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 44
+|   |   |   |   |   |   |   |   |   |--- liveness >  0.09
+|   |   |   |   |   |   |   |   |   |   |--- acousticness <= 0.29
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- acousticness >  0.29
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- danceability >  0.56
+|   |   |   |   |   |   |   |   |   |--- liveness <= 0.11
+|   |   |   |   |   |   |   |   |   |   |--- energy <= 0.66
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- energy >  0.66
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 55
+|   |   |   |   |   |   |   |   |   |--- liveness >  0.11
+|   |   |   |   |   |   |   |   |   |   |--- speechiness <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- speechiness >  0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- duration_ms >  252726.00
+|   |   |   |   |   |   |   |   |--- key <= 9.50
+|   |   |   |   |   |   |   |   |   |--- energy <= 0.86
+|   |   |   |   |   |   |   |   |   |   |--- liveness <= 0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- liveness >  0.08
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- energy >  0.86
+|   |   |   |   |   |   |   |   |   |   |--- class: 69
+|   |   |   |   |   |   |   |   |--- key >  9.50
+|   |   |   |   |   |   |   |   |   |--- speechiness <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- class: 58
+|   |   |   |   |   |   |   |   |   |--- speechiness >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- acousticness <= 0.35
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- acousticness >  0.35
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |--- valence >  0.64
+|   |   |   |   |   |   |   |--- duration_ms <= 240653.00
+|   |   |   |   |   |   |   |   |--- key <= 7.50
+|   |   |   |   |   |   |   |   |   |--- year <= 2001.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 57
+|   |   |   |   |   |   |   |   |   |--- year >  2001.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 76
+|   |   |   |   |   |   |   |   |--- key >  7.50
+|   |   |   |   |   |   |   |   |   |--- danceability <= 0.66
+|   |   |   |   |   |   |   |   |   |   |--- class: 60
+|   |   |   |   |   |   |   |   |   |--- danceability >  0.66
+|   |   |   |   |   |   |   |   |   |   |--- class: 55
+|   |   |   |   |   |   |   |--- duration_ms >  240653.00
+|   |   |   |   |   |   |   |   |--- liveness <= 0.38
+|   |   |   |   |   |   |   |   |   |--- loudness <= -6.89
+|   |   |   |   |   |   |   |   |   |   |--- class: 53
+|   |   |   |   |   |   |   |   |   |--- loudness >  -6.89
+|   |   |   |   |   |   |   |   |   |   |--- speechiness <= 0.37
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 52
+|   |   |   |   |   |   |   |   |   |   |--- speechiness >  0.37
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 50
+|   |   |   |   |   |   |   |   |--- liveness >  0.38
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- instrumentalness >  0.55
+|   |   |   |   |   |   |--- class: 69
+|   |   |   |   |--- loudness >  -5.99
+|   |   |   |   |   |--- liveness <= 0.73
+|   |   |   |   |   |   |--- acousticness <= 0.64
+|   |   |   |   |   |   |   |--- energy <= 0.56
+|   |   |   |   |   |   |   |   |--- key <= 0.50
+|   |   |   |   |   |   |   |   |   |--- energy <= 0.51
+|   |   |   |   |   |   |   |   |   |   |--- class: 55
+|   |   |   |   |   |   |   |   |   |--- energy >  0.51
+|   |   |   |   |   |   |   |   |   |   |--- class: 57
+|   |   |   |   |   |   |   |   |--- key >  0.50
+|   |   |   |   |   |   |   |   |   |--- instrumentalness <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- duration_ms <= 276026.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 59
+|   |   |   |   |   |   |   |   |   |   |--- duration_ms >  276026.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 60
+|   |   |   |   |   |   |   |   |   |--- instrumentalness >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 65
+|   |   |   |   |   |   |   |--- energy >  0.56
+|   |   |   |   |   |   |   |   |--- liveness <= 0.64
+|   |   |   |   |   |   |   |   |   |--- liveness <= 0.56
+|   |   |   |   |   |   |   |   |   |   |--- acousticness <= 0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- acousticness >  0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- liveness >  0.56
+|   |   |   |   |   |   |   |   |   |   |--- speechiness <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- speechiness >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- liveness >  0.64
+|   |   |   |   |   |   |   |   |   |--- duration_ms <= 246799.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 63
+|   |   |   |   |   |   |   |   |   |--- duration_ms >  246799.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 68
+|   |   |   |   |   |   |--- acousticness >  0.64
+|   |   |   |   |   |   |   |--- danceability <= 0.64
+|   |   |   |   |   |   |   |   |--- class: 64
+|   |   |   |   |   |   |   |--- danceability >  0.64
+|   |   |   |   |   |   |   |   |--- class: 73
+|   |   |   |   |   |--- liveness >  0.73
+|   |   |   |   |   |   |--- key <= 7.00
+|   |   |   |   |   |   |   |--- class: 70
+|   |   |   |   |   |   |--- key >  7.00
+|   |   |   |   |   |   |   |--- class: 28
+|   |   |   |--- year >  2004.50
+|   |   |   |   |--- danceability <= 0.85
+|   |   |   |   |   |--- energy <= 0.94
+|   |   |   |   |   |   |--- valence <= 0.59
+|   |   |   |   |   |   |   |--- loudness <= -5.83
+|   |   |   |   |   |   |   |   |--- instrumentalness <= 0.31
+|   |   |   |   |   |   |   |   |   |--- speechiness <= 0.03
+|   |   |   |   |   |   |   |   |   |   |--- class: 64
+|   |   |   |   |   |   |   |   |   |--- speechiness >  0.03
+|   |   |   |   |   |   |   |   |   |   |--- speechiness <= 0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- speechiness >  0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- instrumentalness >  0.31
+|   |   |   |   |   |   |   |   |   |--- class: 66
+|   |   |   |   |   |   |   |--- loudness >  -5.83
+|   |   |   |   |   |   |   |   |--- liveness <= 0.09
+|   |   |   |   |   |   |   |   |   |--- duration_ms <= 210266.50
+|   |   |   |   |   |   |   |   |   |   |--- duration_ms <= 186286.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- duration_ms >  186286.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- duration_ms >  210266.50
+|   |   |   |   |   |   |   |   |   |   |--- loudness <= -2.97
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- loudness >  -2.97
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 66
+|   |   |   |   |   |   |   |   |--- liveness >  0.09
+|   |   |   |   |   |   |   |   |   |--- loudness <= -3.50
+|   |   |   |   |   |   |   |   |   |   |--- energy <= 0.89
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |   |--- energy >  0.89
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- loudness >  -3.50
+|   |   |   |   |   |   |   |   |   |   |--- duration_ms <= 319233.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- duration_ms >  319233.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 75
+|   |   |   |   |   |   |--- valence >  0.59
+|   |   |   |   |   |   |   |--- acousticness <= 0.01
+|   |   |   |   |   |   |   |   |--- acousticness <= 0.00
+|   |   |   |   |   |   |   |   |   |--- energy <= 0.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 49
+|   |   |   |   |   |   |   |   |   |--- energy >  0.80
+|   |   |   |   |   |   |   |   |   |   |--- class: 71
+|   |   |   |   |   |   |   |   |--- acousticness >  0.00
+|   |   |   |   |   |   |   |   |   |--- duration_ms <= 204983.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 76
+|   |   |   |   |   |   |   |   |   |--- duration_ms >  204983.00
+|   |   |   |   |   |   |   |   |   |   |--- liveness <= 0.49
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- liveness >  0.49
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 61
+|   |   |   |   |   |   |   |--- acousticness >  0.01
+|   |   |   |   |   |   |   |   |--- year <= 2009.50
+|   |   |   |   |   |   |   |   |   |--- key <= 8.50
+|   |   |   |   |   |   |   |   |   |   |--- valence <= 0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- valence >  0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- key >  8.50
+|   |   |   |   |   |   |   |   |   |   |--- valence <= 0.67
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- valence >  0.67
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 70
+|   |   |   |   |   |   |   |   |--- year >  2009.50
+|   |   |   |   |   |   |   |   |   |--- speechiness <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- valence <= 0.59
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 69
+|   |   |   |   |   |   |   |   |   |   |--- valence >  0.59
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |--- speechiness >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- danceability <= 0.71
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 72
+|   |   |   |   |   |   |   |   |   |   |--- danceability >  0.71
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |--- energy >  0.94
+|   |   |   |   |   |   |--- valence <= 0.46
+|   |   |   |   |   |   |   |--- danceability <= 0.38
+|   |   |   |   |   |   |   |   |--- class: 57
+|   |   |   |   |   |   |   |--- danceability >  0.38
+|   |   |   |   |   |   |   |   |--- instrumentalness <= 0.00
+|   |   |   |   |   |   |   |   |   |--- acousticness <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- energy <= 0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 78
+|   |   |   |   |   |   |   |   |   |   |--- energy >  0.96
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 74
+|   |   |   |   |   |   |   |   |   |--- acousticness >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 63
+|   |   |   |   |   |   |   |   |--- instrumentalness >  0.00
+|   |   |   |   |   |   |   |   |   |--- duration_ms <= 224908.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 73
+|   |   |   |   |   |   |   |   |   |--- duration_ms >  224908.50
+|   |   |   |   |   |   |   |   |   |   |--- explicit <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 64
+|   |   |   |   |   |   |   |   |   |   |--- explicit >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 47
+|   |   |   |   |   |   |--- valence >  0.46
+|   |   |   |   |   |   |   |--- instrumentalness <= 0.06
+|   |   |   |   |   |   |   |   |--- explicit <= 0.50
+|   |   |   |   |   |   |   |   |   |--- loudness <= -4.50
+|   |   |   |   |   |   |   |   |   |   |--- mode <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 58
+|   |   |   |   |   |   |   |   |   |   |--- mode >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- loudness >  -4.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 65
+|   |   |   |   |   |   |   |   |--- explicit >  0.50
+|   |   |   |   |   |   |   |   |   |--- danceability <= 0.54
+|   |   |   |   |   |   |   |   |   |   |--- class: 73
+|   |   |   |   |   |   |   |   |   |--- danceability >  0.54
+|   |   |   |   |   |   |   |   |   |   |--- key <= 7.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 75
+|   |   |   |   |   |   |   |   |   |   |--- key >  7.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 73
+|   |   |   |   |   |   |   |--- instrumentalness >  0.06
+|   |   |   |   |   |   |   |   |--- class: 57
+|   |   |   |   |--- danceability >  0.85
+|   |   |   |   |   |--- liveness <= 0.13
+|   |   |   |   |   |   |--- liveness <= 0.08
+|   |   |   |   |   |   |   |--- speechiness <= 0.18
+|   |   |   |   |   |   |   |   |--- class: 59
+|   |   |   |   |   |   |   |--- speechiness >  0.18
+|   |   |   |   |   |   |   |   |--- energy <= 0.60
+|   |   |   |   |   |   |   |   |   |--- class: 41
+|   |   |   |   |   |   |   |   |--- energy >  0.60
+|   |   |   |   |   |   |   |   |   |--- class: 74
+|   |   |   |   |   |   |--- liveness >  0.08
+|   |   |   |   |   |   |   |--- danceability <= 0.93
+|   |   |   |   |   |   |   |   |--- danceability <= 0.86
+|   |   |   |   |   |   |   |   |   |--- class: 74
+|   |   |   |   |   |   |   |   |--- danceability >  0.86
+|   |   |   |   |   |   |   |   |   |--- energy <= 0.55
+|   |   |   |   |   |   |   |   |   |   |--- class: 63
+|   |   |   |   |   |   |   |   |   |--- energy >  0.55
+|   |   |   |   |   |   |   |   |   |   |--- liveness <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- liveness >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- danceability >  0.93
+|   |   |   |   |   |   |   |   |--- class: 57
+|   |   |   |   |   |--- liveness >  0.13
+|   |   |   |   |   |   |--- instrumentalness <= 0.00
+|   |   |   |   |   |   |   |--- speechiness <= 0.06
+|   |   |   |   |   |   |   |   |--- class: 34
+|   |   |   |   |   |   |   |--- speechiness >  0.06
+|   |   |   |   |   |   |   |   |--- acousticness <= 0.10
+|   |   |   |   |   |   |   |   |   |--- class: 80
+|   |   |   |   |   |   |   |   |--- acousticness >  0.10
+|   |   |   |   |   |   |   |   |   |--- key <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 79
+|   |   |   |   |   |   |   |   |   |--- key >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 66
+|   |   |   |   |   |   |--- instrumentalness >  0.00
+|   |   |   |   |   |   |   |--- valence <= 0.38
+|   |   |   |   |   |   |   |   |--- class: 53
+|   |   |   |   |   |   |   |--- valence >  0.38
+|   |   |   |   |   |   |   |   |--- valence <= 0.47
+|   |   |   |   |   |   |   |   |   |--- class: 68
+|   |   |   |   |   |   |   |   |--- valence >  0.47
+|   |   |   |   |   |   |   |   |   |--- class: 74
+|   |   |--- year >  2010.50
+|   |   |   |--- danceability <= 0.74
+|   |   |   |   |--- loudness <= -11.67
+|   |   |   |   |   |--- loudness <= -12.75
+|   |   |   |   |   |   |--- instrumentalness <= 0.09
+|   |   |   |   |   |   |   |--- class: 77
+|   |   |   |   |   |   |--- instrumentalness >  0.09
+|   |   |   |   |   |   |   |--- class: 82
+|   |   |   |   |   |--- loudness >  -12.75
+|   |   |   |   |   |   |--- class: 84
+|   |   |   |   |--- loudness >  -11.67
+|   |   |   |   |   |--- speechiness <= 0.05
+|   |   |   |   |   |   |--- acousticness <= 0.01
+|   |   |   |   |   |   |   |--- speechiness <= 0.05
+|   |   |   |   |   |   |   |   |--- duration_ms <= 283998.00
+|   |   |   |   |   |   |   |   |   |--- loudness <= -4.73
+|   |   |   |   |   |   |   |   |   |   |--- loudness <= -6.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- loudness >  -6.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- loudness >  -4.73
+|   |   |   |   |   |   |   |   |   |   |--- liveness <= 0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- liveness >  0.13
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |--- duration_ms >  283998.00
+|   |   |   |   |   |   |   |   |   |--- class: 67
+|   |   |   |   |   |   |   |--- speechiness >  0.05
+|   |   |   |   |   |   |   |   |--- danceability <= 0.41
+|   |   |   |   |   |   |   |   |   |--- class: 68
+|   |   |   |   |   |   |   |   |--- danceability >  0.41
+|   |   |   |   |   |   |   |   |   |--- liveness <= 0.13
+|   |   |   |   |   |   |   |   |   |   |--- class: 75
+|   |   |   |   |   |   |   |   |   |--- liveness >  0.13
+|   |   |   |   |   |   |   |   |   |   |--- key <= 1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- key >  1.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |--- acousticness >  0.01
+|   |   |   |   |   |   |   |--- year <= 2014.50
+|   |   |   |   |   |   |   |   |--- danceability <= 0.74
+|   |   |   |   |   |   |   |   |   |--- energy <= 0.54
+|   |   |   |   |   |   |   |   |   |   |--- speechiness <= 0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- speechiness >  0.03
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |--- energy >  0.54
+|   |   |   |   |   |   |   |   |   |   |--- loudness <= -4.44
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- loudness >  -4.44
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |--- danceability >  0.74
+|   |   |   |   |   |   |   |   |   |--- speechiness <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 66
+|   |   |   |   |   |   |   |   |   |--- speechiness >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 65
+|   |   |   |   |   |   |   |--- year >  2014.50
+|   |   |   |   |   |   |   |   |--- acousticness <= 0.91
+|   |   |   |   |   |   |   |   |   |--- valence <= 0.27
+|   |   |   |   |   |   |   |   |   |   |--- liveness <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- liveness >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- valence >  0.27
+|   |   |   |   |   |   |   |   |   |   |--- year <= 2017.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- year >  2017.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |--- acousticness >  0.91
+|   |   |   |   |   |   |   |   |   |--- class: 86
+|   |   |   |   |   |--- speechiness >  0.05
+|   |   |   |   |   |   |--- instrumentalness <= 0.00
+|   |   |   |   |   |   |   |--- acousticness <= 0.01
+|   |   |   |   |   |   |   |   |--- valence <= 0.40
+|   |   |   |   |   |   |   |   |   |--- liveness <= 0.29
+|   |   |   |   |   |   |   |   |   |   |--- year <= 2017.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- year >  2017.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 71
+|   |   |   |   |   |   |   |   |   |--- liveness >  0.29
+|   |   |   |   |   |   |   |   |   |   |--- instrumentalness <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 79
+|   |   |   |   |   |   |   |   |   |   |--- instrumentalness >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- valence >  0.40
+|   |   |   |   |   |   |   |   |   |--- instrumentalness <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- liveness <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- liveness >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- instrumentalness >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- valence <= 0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 52
+|   |   |   |   |   |   |   |   |   |   |--- valence >  0.47
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- acousticness >  0.01
+|   |   |   |   |   |   |   |   |--- acousticness <= 0.01
+|   |   |   |   |   |   |   |   |   |--- class: 69
+|   |   |   |   |   |   |   |   |--- acousticness >  0.01
+|   |   |   |   |   |   |   |   |   |--- duration_ms <= 221221.50
+|   |   |   |   |   |   |   |   |   |   |--- energy <= 0.56
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- energy >  0.56
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 14
+|   |   |   |   |   |   |   |   |   |--- duration_ms >  221221.50
+|   |   |   |   |   |   |   |   |   |   |--- energy <= 0.82
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- energy >  0.82
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |--- instrumentalness >  0.00
+|   |   |   |   |   |   |   |--- valence <= 0.51
+|   |   |   |   |   |   |   |   |--- liveness <= 0.14
+|   |   |   |   |   |   |   |   |   |--- loudness <= -6.23
+|   |   |   |   |   |   |   |   |   |   |--- instrumentalness <= 0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 78
+|   |   |   |   |   |   |   |   |   |   |--- instrumentalness >  0.01
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- loudness >  -6.23
+|   |   |   |   |   |   |   |   |   |   |--- class: 79
+|   |   |   |   |   |   |   |   |--- liveness >  0.14
+|   |   |   |   |   |   |   |   |   |--- speechiness <= 0.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- speechiness >  0.07
+|   |   |   |   |   |   |   |   |   |   |--- duration_ms <= 184752.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 45
+|   |   |   |   |   |   |   |   |   |   |--- duration_ms >  184752.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |--- valence >  0.51
+|   |   |   |   |   |   |   |   |--- speechiness <= 0.08
+|   |   |   |   |   |   |   |   |   |--- class: 47
+|   |   |   |   |   |   |   |   |--- speechiness >  0.08
+|   |   |   |   |   |   |   |   |   |--- year <= 2017.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 75
+|   |   |   |   |   |   |   |   |   |--- year >  2017.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 83
+|   |   |   |--- danceability >  0.74
+|   |   |   |   |--- acousticness <= 0.08
+|   |   |   |   |   |--- speechiness <= 0.43
+|   |   |   |   |   |   |--- duration_ms <= 177184.50
+|   |   |   |   |   |   |   |--- key <= 7.50
+|   |   |   |   |   |   |   |   |--- key <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 48
+|   |   |   |   |   |   |   |   |--- key >  0.50
+|   |   |   |   |   |   |   |   |   |--- energy <= 0.57
+|   |   |   |   |   |   |   |   |   |   |--- loudness <= -5.44
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 76
+|   |   |   |   |   |   |   |   |   |   |--- loudness >  -5.44
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- energy >  0.57
+|   |   |   |   |   |   |   |   |   |   |--- instrumentalness <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- instrumentalness >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |--- key >  7.50
+|   |   |   |   |   |   |   |   |--- duration_ms <= 173860.00
+|   |   |   |   |   |   |   |   |   |--- class: 74
+|   |   |   |   |   |   |   |   |--- duration_ms >  173860.00
+|   |   |   |   |   |   |   |   |   |--- class: 65
+|   |   |   |   |   |   |--- duration_ms >  177184.50
+|   |   |   |   |   |   |   |--- speechiness <= 0.27
+|   |   |   |   |   |   |   |   |--- danceability <= 0.90
+|   |   |   |   |   |   |   |   |   |--- acousticness <= 0.07
+|   |   |   |   |   |   |   |   |   |   |--- year <= 2018.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |   |   |--- year >  2018.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- acousticness >  0.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- danceability >  0.90
+|   |   |   |   |   |   |   |   |   |--- instrumentalness <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- valence <= 0.32
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 72
+|   |   |   |   |   |   |   |   |   |   |--- valence >  0.32
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- instrumentalness >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- danceability <= 0.91
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 77
+|   |   |   |   |   |   |   |   |   |   |--- danceability >  0.91
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |--- speechiness >  0.27
+|   |   |   |   |   |   |   |   |--- valence <= 0.15
+|   |   |   |   |   |   |   |   |   |--- class: 68
+|   |   |   |   |   |   |   |   |--- valence >  0.15
+|   |   |   |   |   |   |   |   |   |--- key <= 10.50
+|   |   |   |   |   |   |   |   |   |   |--- liveness <= 0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- liveness >  0.15
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 61
+|   |   |   |   |   |   |   |   |   |--- key >  10.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 77
+|   |   |   |   |   |--- speechiness >  0.43
+|   |   |   |   |   |   |--- class: 79
+|   |   |   |   |--- acousticness >  0.08
+|   |   |   |   |   |--- liveness <= 0.07
+|   |   |   |   |   |   |--- instrumentalness <= 0.00
+|   |   |   |   |   |   |   |--- class: 64
+|   |   |   |   |   |   |--- instrumentalness >  0.00
+|   |   |   |   |   |   |   |--- explicit <= 0.50
+|   |   |   |   |   |   |   |   |--- class: 75
+|   |   |   |   |   |   |   |--- explicit >  0.50
+|   |   |   |   |   |   |   |   |--- key <= 9.50
+|   |   |   |   |   |   |   |   |   |--- year <= 2018.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 76
+|   |   |   |   |   |   |   |   |   |--- year >  2018.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 70
+|   |   |   |   |   |   |   |   |--- key >  9.50
+|   |   |   |   |   |   |   |   |   |--- class: 76
+|   |   |   |   |   |--- liveness >  0.07
+|   |   |   |   |   |   |--- energy <= 0.36
+|   |   |   |   |   |   |   |--- energy <= 0.34
+|   |   |   |   |   |   |   |   |--- class: 83
+|   |   |   |   |   |   |   |--- energy >  0.34
+|   |   |   |   |   |   |   |   |--- class: 78
+|   |   |   |   |   |   |--- energy >  0.36
+|   |   |   |   |   |   |   |--- liveness <= 0.07
+|   |   |   |   |   |   |   |   |--- loudness <= -4.26
+|   |   |   |   |   |   |   |   |   |--- energy <= 0.60
+|   |   |   |   |   |   |   |   |   |   |--- class: 72
+|   |   |   |   |   |   |   |   |   |--- energy >  0.60
+|   |   |   |   |   |   |   |   |   |   |--- liveness <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 78
+|   |   |   |   |   |   |   |   |   |   |--- liveness >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 72
+|   |   |   |   |   |   |   |   |--- loudness >  -4.26
+|   |   |   |   |   |   |   |   |   |--- class: 57
+|   |   |   |   |   |   |   |--- liveness >  0.07
+|   |   |   |   |   |   |   |   |--- duration_ms <= 239413.00
+|   |   |   |   |   |   |   |   |   |--- valence <= 0.38
+|   |   |   |   |   |   |   |   |   |   |--- key <= 7.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- key >  7.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- valence >  0.38
+|   |   |   |   |   |   |   |   |   |   |--- valence <= 0.42
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- valence >  0.42
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |--- duration_ms >  239413.00
+|   |   |   |   |   |   |   |   |   |--- acousticness <= 0.25
+|   |   |   |   |   |   |   |   |   |   |--- liveness <= 0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- liveness >  0.23
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 47
+|   |   |   |   |   |   |   |   |   |--- acousticness >  0.25
+|   |   |   |   |   |   |   |   |   |   |--- key <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 57
+|   |   |   |   |   |   |   |   |   |   |--- key >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |--- valence >  0.68
+|   |   |--- year <= 2009.50
+|   |   |   |--- year <= 2005.50
+|   |   |   |   |--- speechiness <= 0.03
+|   |   |   |   |   |--- acousticness <= 0.01
+|   |   |   |   |   |   |--- key <= 5.00
+|   |   |   |   |   |   |   |--- class: 46
+|   |   |   |   |   |   |--- key >  5.00
+|   |   |   |   |   |   |   |--- class: 60
+|   |   |   |   |   |--- acousticness >  0.01
+|   |   |   |   |   |   |--- acousticness <= 0.17
+|   |   |   |   |   |   |   |--- energy <= 0.82
+|   |   |   |   |   |   |   |   |--- class: 59
+|   |   |   |   |   |   |   |--- energy >  0.82
+|   |   |   |   |   |   |   |   |--- class: 56
+|   |   |   |   |   |   |--- acousticness >  0.17
+|   |   |   |   |   |   |   |--- class: 61
+|   |   |   |   |--- speechiness >  0.03
+|   |   |   |   |   |--- energy <= 0.80
+|   |   |   |   |   |   |--- liveness <= 0.06
+|   |   |   |   |   |   |   |--- key <= 3.00
+|   |   |   |   |   |   |   |   |--- speechiness <= 0.05
+|   |   |   |   |   |   |   |   |   |--- year <= 2002.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 59
+|   |   |   |   |   |   |   |   |   |--- year >  2002.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 69
+|   |   |   |   |   |   |   |   |--- speechiness >  0.05
+|   |   |   |   |   |   |   |   |   |--- duration_ms <= 242773.00
+|   |   |   |   |   |   |   |   |   |   |--- liveness <= 0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 57
+|   |   |   |   |   |   |   |   |   |   |--- liveness >  0.05
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- duration_ms >  242773.00
+|   |   |   |   |   |   |   |   |   |   |--- explicit <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- explicit >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 69
+|   |   |   |   |   |   |   |--- key >  3.00
+|   |   |   |   |   |   |   |   |--- instrumentalness <= 0.01
+|   |   |   |   |   |   |   |   |   |--- duration_ms <= 246606.50
+|   |   |   |   |   |   |   |   |   |   |--- energy <= 0.66
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- energy >  0.66
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- duration_ms >  246606.50
+|   |   |   |   |   |   |   |   |   |   |--- year <= 2001.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- year >  2001.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- instrumentalness >  0.01
+|   |   |   |   |   |   |   |   |   |--- class: 60
+|   |   |   |   |   |   |--- liveness >  0.06
+|   |   |   |   |   |   |   |--- speechiness <= 0.23
+|   |   |   |   |   |   |   |   |--- acousticness <= 0.35
+|   |   |   |   |   |   |   |   |   |--- liveness <= 0.13
+|   |   |   |   |   |   |   |   |   |   |--- year <= 2001.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |   |--- year >  2001.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 7
+|   |   |   |   |   |   |   |   |   |--- liveness >  0.13
+|   |   |   |   |   |   |   |   |   |   |--- valence <= 0.77
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- valence >  0.77
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |   |--- acousticness >  0.35
+|   |   |   |   |   |   |   |   |   |--- danceability <= 0.79
+|   |   |   |   |   |   |   |   |   |   |--- speechiness <= 0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 65
+|   |   |   |   |   |   |   |   |   |   |--- speechiness >  0.21
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 63
+|   |   |   |   |   |   |   |   |   |--- danceability >  0.79
+|   |   |   |   |   |   |   |   |   |   |--- valence <= 0.85
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 67
+|   |   |   |   |   |   |   |   |   |   |--- valence >  0.85
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 36
+|   |   |   |   |   |   |   |--- speechiness >  0.23
+|   |   |   |   |   |   |   |   |--- duration_ms <= 299706.00
+|   |   |   |   |   |   |   |   |   |--- speechiness <= 0.24
+|   |   |   |   |   |   |   |   |   |   |--- liveness <= 0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 53
+|   |   |   |   |   |   |   |   |   |   |--- liveness >  0.19
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 60
+|   |   |   |   |   |   |   |   |   |--- speechiness >  0.24
+|   |   |   |   |   |   |   |   |   |   |--- energy <= 0.74
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- energy >  0.74
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 68
+|   |   |   |   |   |   |   |   |--- duration_ms >  299706.00
+|   |   |   |   |   |   |   |   |   |--- key <= 4.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 51
+|   |   |   |   |   |   |   |   |   |--- key >  4.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 63
+|   |   |   |   |   |--- energy >  0.80
+|   |   |   |   |   |   |--- energy <= 0.92
+|   |   |   |   |   |   |   |--- valence <= 0.90
+|   |   |   |   |   |   |   |   |--- instrumentalness <= 0.01
+|   |   |   |   |   |   |   |   |   |--- valence <= 0.70
+|   |   |   |   |   |   |   |   |   |   |--- duration_ms <= 249733.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- duration_ms >  249733.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- valence >  0.70
+|   |   |   |   |   |   |   |   |   |   |--- duration_ms <= 212319.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 8
+|   |   |   |   |   |   |   |   |   |   |--- duration_ms >  212319.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 11
+|   |   |   |   |   |   |   |   |--- instrumentalness >  0.01
+|   |   |   |   |   |   |   |   |   |--- acousticness <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- energy <= 0.81
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 58
+|   |   |   |   |   |   |   |   |   |   |--- energy >  0.81
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- acousticness >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- key <= 10.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- key >  10.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 50
+|   |   |   |   |   |   |   |--- valence >  0.90
+|   |   |   |   |   |   |   |   |--- danceability <= 0.82
+|   |   |   |   |   |   |   |   |   |--- key <= 8.50
+|   |   |   |   |   |   |   |   |   |   |--- acousticness <= 0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- acousticness >  0.07
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- key >  8.50
+|   |   |   |   |   |   |   |   |   |   |--- energy <= 0.91
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 68
+|   |   |   |   |   |   |   |   |   |   |--- energy >  0.91
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 46
+|   |   |   |   |   |   |   |   |--- danceability >  0.82
+|   |   |   |   |   |   |   |   |   |--- acousticness <= 0.14
+|   |   |   |   |   |   |   |   |   |   |--- explicit <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 38
+|   |   |   |   |   |   |   |   |   |   |--- explicit >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 49
+|   |   |   |   |   |   |   |   |   |--- acousticness >  0.14
+|   |   |   |   |   |   |   |   |   |   |--- class: 69
+|   |   |   |   |   |   |--- energy >  0.92
+|   |   |   |   |   |   |   |--- liveness <= 0.37
+|   |   |   |   |   |   |   |   |--- valence <= 0.87
+|   |   |   |   |   |   |   |   |   |--- speechiness <= 0.04
+|   |   |   |   |   |   |   |   |   |   |--- class: 43
+|   |   |   |   |   |   |   |   |   |--- speechiness >  0.04
+|   |   |   |   |   |   |   |   |   |   |--- energy <= 0.95
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- energy >  0.95
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- valence >  0.87
+|   |   |   |   |   |   |   |   |   |--- duration_ms <= 226693.00
+|   |   |   |   |   |   |   |   |   |   |--- liveness <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 65
+|   |   |   |   |   |   |   |   |   |   |--- liveness >  0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 57
+|   |   |   |   |   |   |   |   |   |--- duration_ms >  226693.00
+|   |   |   |   |   |   |   |   |   |   |--- danceability <= 0.74
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 80
+|   |   |   |   |   |   |   |   |   |   |--- danceability >  0.74
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 63
+|   |   |   |   |   |   |   |--- liveness >  0.37
+|   |   |   |   |   |   |   |   |--- instrumentalness <= 0.00
+|   |   |   |   |   |   |   |   |   |--- class: 75
+|   |   |   |   |   |   |   |   |--- instrumentalness >  0.00
+|   |   |   |   |   |   |   |   |   |--- duration_ms <= 218113.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 61
+|   |   |   |   |   |   |   |   |   |--- duration_ms >  218113.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 60
+|   |   |   |--- year >  2005.50
+|   |   |   |   |--- speechiness <= 0.03
+|   |   |   |   |   |--- duration_ms <= 256579.50
+|   |   |   |   |   |   |--- danceability <= 0.78
+|   |   |   |   |   |   |   |--- class: 65
+|   |   |   |   |   |   |--- danceability >  0.78
+|   |   |   |   |   |   |   |--- instrumentalness <= 0.00
+|   |   |   |   |   |   |   |   |--- class: 73
+|   |   |   |   |   |   |   |--- instrumentalness >  0.00
+|   |   |   |   |   |   |   |   |--- valence <= 0.83
+|   |   |   |   |   |   |   |   |   |--- class: 76
+|   |   |   |   |   |   |   |   |--- valence >  0.83
+|   |   |   |   |   |   |   |   |   |--- class: 58
+|   |   |   |   |   |--- duration_ms >  256579.50
+|   |   |   |   |   |   |--- class: 63
+|   |   |   |   |--- speechiness >  0.03
+|   |   |   |   |   |--- duration_ms <= 329293.00
+|   |   |   |   |   |   |--- energy <= 0.76
+|   |   |   |   |   |   |   |--- acousticness <= 0.50
+|   |   |   |   |   |   |   |   |--- key <= 2.50
+|   |   |   |   |   |   |   |   |   |--- liveness <= 0.30
+|   |   |   |   |   |   |   |   |   |   |--- acousticness <= 0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 59
+|   |   |   |   |   |   |   |   |   |   |--- acousticness >  0.10
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- liveness >  0.30
+|   |   |   |   |   |   |   |   |   |   |--- energy <= 0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 65
+|   |   |   |   |   |   |   |   |   |   |--- energy >  0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- key >  2.50
+|   |   |   |   |   |   |   |   |   |--- loudness <= -7.58
+|   |   |   |   |   |   |   |   |   |   |--- speechiness <= 0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- speechiness >  0.14
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- loudness >  -7.58
+|   |   |   |   |   |   |   |   |   |   |--- duration_ms <= 211206.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- duration_ms >  211206.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 9
+|   |   |   |   |   |   |   |--- acousticness >  0.50
+|   |   |   |   |   |   |   |   |--- danceability <= 0.73
+|   |   |   |   |   |   |   |   |   |--- year <= 2007.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 61
+|   |   |   |   |   |   |   |   |   |--- year >  2007.00
+|   |   |   |   |   |   |   |   |   |   |--- mode <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 67
+|   |   |   |   |   |   |   |   |   |   |--- mode >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 64
+|   |   |   |   |   |   |   |   |--- danceability >  0.73
+|   |   |   |   |   |   |   |   |   |--- class: 74
+|   |   |   |   |   |   |--- energy >  0.76
+|   |   |   |   |   |   |   |--- key <= 6.50
+|   |   |   |   |   |   |   |   |--- danceability <= 0.73
+|   |   |   |   |   |   |   |   |   |--- valence <= 0.80
+|   |   |   |   |   |   |   |   |   |   |--- loudness <= -4.76
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- loudness >  -4.76
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- valence >  0.80
+|   |   |   |   |   |   |   |   |   |   |--- year <= 2008.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- year >  2008.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 54
+|   |   |   |   |   |   |   |   |--- danceability >  0.73
+|   |   |   |   |   |   |   |   |   |--- loudness <= -3.61
+|   |   |   |   |   |   |   |   |   |   |--- energy <= 0.85
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |   |--- energy >  0.85
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- loudness >  -3.61
+|   |   |   |   |   |   |   |   |   |   |--- class: 71
+|   |   |   |   |   |   |   |--- key >  6.50
+|   |   |   |   |   |   |   |   |--- liveness <= 0.12
+|   |   |   |   |   |   |   |   |   |--- key <= 8.50
+|   |   |   |   |   |   |   |   |   |   |--- energy <= 0.78
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 40
+|   |   |   |   |   |   |   |   |   |   |--- energy >  0.78
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |   |   |   |   |   |--- key >  8.50
+|   |   |   |   |   |   |   |   |   |   |--- duration_ms <= 199613.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- duration_ms >  199613.00
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- liveness >  0.12
+|   |   |   |   |   |   |   |   |   |--- acousticness <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 59
+|   |   |   |   |   |   |   |   |   |--- acousticness >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- energy <= 0.95
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 6
+|   |   |   |   |   |   |   |   |   |   |--- energy >  0.95
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 82
+|   |   |   |   |   |--- duration_ms >  329293.00
+|   |   |   |   |   |   |--- class: 57
+|   |   |--- year >  2009.50
+|   |   |   |--- year <= 2017.50
+|   |   |   |   |--- acousticness <= 0.01
+|   |   |   |   |   |--- duration_ms <= 215892.00
+|   |   |   |   |   |   |--- energy <= 0.74
+|   |   |   |   |   |   |   |--- duration_ms <= 205633.00
+|   |   |   |   |   |   |   |   |--- loudness <= -6.72
+|   |   |   |   |   |   |   |   |   |--- class: 66
+|   |   |   |   |   |   |   |   |--- loudness >  -6.72
+|   |   |   |   |   |   |   |   |   |--- acousticness <= 0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 71
+|   |   |   |   |   |   |   |   |   |--- acousticness >  0.01
+|   |   |   |   |   |   |   |   |   |   |--- class: 69
+|   |   |   |   |   |   |   |--- duration_ms >  205633.00
+|   |   |   |   |   |   |   |   |--- liveness <= 0.15
+|   |   |   |   |   |   |   |   |   |--- class: 68
+|   |   |   |   |   |   |   |   |--- liveness >  0.15
+|   |   |   |   |   |   |   |   |   |--- class: 78
+|   |   |   |   |   |   |--- energy >  0.74
+|   |   |   |   |   |   |   |--- liveness <= 0.37
+|   |   |   |   |   |   |   |   |--- valence <= 0.71
+|   |   |   |   |   |   |   |   |   |--- class: 49
+|   |   |   |   |   |   |   |   |--- valence >  0.71
+|   |   |   |   |   |   |   |   |   |--- duration_ms <= 188659.50
+|   |   |   |   |   |   |   |   |   |   |--- explicit <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- explicit >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- duration_ms >  188659.50
+|   |   |   |   |   |   |   |   |   |   |--- liveness <= 0.35
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- liveness >  0.35
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 62
+|   |   |   |   |   |   |   |--- liveness >  0.37
+|   |   |   |   |   |   |   |   |--- class: 64
+|   |   |   |   |   |--- duration_ms >  215892.00
+|   |   |   |   |   |   |--- acousticness <= 0.00
+|   |   |   |   |   |   |   |--- liveness <= 0.21
+|   |   |   |   |   |   |   |   |--- mode <= 0.50
+|   |   |   |   |   |   |   |   |   |--- instrumentalness <= 0.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 72
+|   |   |   |   |   |   |   |   |   |--- instrumentalness >  0.00
+|   |   |   |   |   |   |   |   |   |   |--- year <= 2011.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 69
+|   |   |   |   |   |   |   |   |   |   |--- year >  2011.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 65
+|   |   |   |   |   |   |   |   |--- mode >  0.50
+|   |   |   |   |   |   |   |   |   |--- speechiness <= 0.05
+|   |   |   |   |   |   |   |   |   |   |--- danceability <= 0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 73
+|   |   |   |   |   |   |   |   |   |   |--- danceability >  0.68
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 55
+|   |   |   |   |   |   |   |   |   |--- speechiness >  0.05
+|   |   |   |   |   |   |   |   |   |   |--- energy <= 0.77
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 72
+|   |   |   |   |   |   |   |   |   |   |--- energy >  0.77
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 48
+|   |   |   |   |   |   |   |--- liveness >  0.21
+|   |   |   |   |   |   |   |   |--- class: 67
+|   |   |   |   |   |   |--- acousticness >  0.00
+|   |   |   |   |   |   |   |--- liveness <= 0.15
+|   |   |   |   |   |   |   |   |--- loudness <= -4.63
+|   |   |   |   |   |   |   |   |   |--- explicit <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- valence <= 0.84
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 73
+|   |   |   |   |   |   |   |   |   |   |--- valence >  0.84
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 50
+|   |   |   |   |   |   |   |   |   |--- explicit >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 82
+|   |   |   |   |   |   |   |   |--- loudness >  -4.63
+|   |   |   |   |   |   |   |   |   |--- class: 74
+|   |   |   |   |   |   |   |--- liveness >  0.15
+|   |   |   |   |   |   |   |   |--- duration_ms <= 218080.00
+|   |   |   |   |   |   |   |   |   |--- class: 83
+|   |   |   |   |   |   |   |   |--- duration_ms >  218080.00
+|   |   |   |   |   |   |   |   |   |--- danceability <= 0.67
+|   |   |   |   |   |   |   |   |   |   |--- class: 54
+|   |   |   |   |   |   |   |   |   |--- danceability >  0.67
+|   |   |   |   |   |   |   |   |   |   |--- liveness <= 0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 76
+|   |   |   |   |   |   |   |   |   |   |--- liveness >  0.20
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- acousticness >  0.01
+|   |   |   |   |   |--- key <= 3.50
+|   |   |   |   |   |   |--- liveness <= 0.15
+|   |   |   |   |   |   |   |--- duration_ms <= 246917.50
+|   |   |   |   |   |   |   |   |--- liveness <= 0.07
+|   |   |   |   |   |   |   |   |   |--- energy <= 0.67
+|   |   |   |   |   |   |   |   |   |   |--- class: 77
+|   |   |   |   |   |   |   |   |   |--- energy >  0.67
+|   |   |   |   |   |   |   |   |   |   |--- danceability <= 0.65
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 60
+|   |   |   |   |   |   |   |   |   |   |--- danceability >  0.65
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 78
+|   |   |   |   |   |   |   |   |--- liveness >  0.07
+|   |   |   |   |   |   |   |   |   |--- acousticness <= 0.48
+|   |   |   |   |   |   |   |   |   |   |--- danceability <= 0.73
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |   |--- danceability >  0.73
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |--- acousticness >  0.48
+|   |   |   |   |   |   |   |   |   |   |--- class: 84
+|   |   |   |   |   |   |   |--- duration_ms >  246917.50
+|   |   |   |   |   |   |   |   |--- explicit <= 0.50
+|   |   |   |   |   |   |   |   |   |--- class: 81
+|   |   |   |   |   |   |   |   |--- explicit >  0.50
+|   |   |   |   |   |   |   |   |   |--- class: 68
+|   |   |   |   |   |   |--- liveness >  0.15
+|   |   |   |   |   |   |   |--- duration_ms <= 231061.00
+|   |   |   |   |   |   |   |   |--- valence <= 0.74
+|   |   |   |   |   |   |   |   |   |--- liveness <= 0.24
+|   |   |   |   |   |   |   |   |   |   |--- class: 48
+|   |   |   |   |   |   |   |   |   |--- liveness >  0.24
+|   |   |   |   |   |   |   |   |   |   |--- liveness <= 0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |   |   |--- liveness >  0.28
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |--- valence >  0.74
+|   |   |   |   |   |   |   |   |   |--- valence <= 0.84
+|   |   |   |   |   |   |   |   |   |   |--- liveness <= 0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |   |--- liveness >  0.36
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |--- valence >  0.84
+|   |   |   |   |   |   |   |   |   |   |--- danceability <= 0.77
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 65
+|   |   |   |   |   |   |   |   |   |   |--- danceability >  0.77
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 80
+|   |   |   |   |   |   |   |--- duration_ms >  231061.00
+|   |   |   |   |   |   |   |   |--- duration_ms <= 235567.50
+|   |   |   |   |   |   |   |   |   |--- class: 74
+|   |   |   |   |   |   |   |   |--- duration_ms >  235567.50
+|   |   |   |   |   |   |   |   |   |--- liveness <= 0.22
+|   |   |   |   |   |   |   |   |   |   |--- class: 52
+|   |   |   |   |   |   |   |   |   |--- liveness >  0.22
+|   |   |   |   |   |   |   |   |   |   |--- class: 69
+|   |   |   |   |   |--- key >  3.50
+|   |   |   |   |   |   |--- energy <= 0.72
+|   |   |   |   |   |   |   |--- valence <= 0.80
+|   |   |   |   |   |   |   |   |--- speechiness <= 0.15
+|   |   |   |   |   |   |   |   |   |--- year <= 2011.50
+|   |   |   |   |   |   |   |   |   |   |--- liveness <= 0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 18
+|   |   |   |   |   |   |   |   |   |   |--- liveness >  0.11
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 70
+|   |   |   |   |   |   |   |   |   |--- year >  2011.50
+|   |   |   |   |   |   |   |   |   |   |--- loudness <= -6.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |   |   |--- loudness >  -6.02
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |--- speechiness >  0.15
+|   |   |   |   |   |   |   |   |   |--- speechiness <= 0.24
+|   |   |   |   |   |   |   |   |   |   |--- class: 56
+|   |   |   |   |   |   |   |   |   |--- speechiness >  0.24
+|   |   |   |   |   |   |   |   |   |   |--- class: 66
+|   |   |   |   |   |   |   |--- valence >  0.80
+|   |   |   |   |   |   |   |   |--- loudness <= -6.48
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |--- loudness >  -6.48
+|   |   |   |   |   |   |   |   |   |--- loudness <= -4.31
+|   |   |   |   |   |   |   |   |   |   |--- year <= 2010.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 75
+|   |   |   |   |   |   |   |   |   |   |--- year >  2010.50
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 3
+|   |   |   |   |   |   |   |   |   |--- loudness >  -4.31
+|   |   |   |   |   |   |   |   |   |   |--- class: 85
+|   |   |   |   |   |   |--- energy >  0.72
+|   |   |   |   |   |   |   |--- duration_ms <= 187385.50
+|   |   |   |   |   |   |   |   |--- key <= 7.50
+|   |   |   |   |   |   |   |   |   |--- acousticness <= 0.08
+|   |   |   |   |   |   |   |   |   |   |--- instrumentalness <= 0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 70
+|   |   |   |   |   |   |   |   |   |   |--- instrumentalness >  0.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- acousticness >  0.08
+|   |   |   |   |   |   |   |   |   |   |--- class: 59
+|   |   |   |   |   |   |   |   |--- key >  7.50
+|   |   |   |   |   |   |   |   |   |--- speechiness <= 0.07
+|   |   |   |   |   |   |   |   |   |   |--- loudness <= -4.61
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 59
+|   |   |   |   |   |   |   |   |   |   |--- loudness >  -4.61
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 49
+|   |   |   |   |   |   |   |   |   |--- speechiness >  0.07
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- duration_ms >  187385.50
+|   |   |   |   |   |   |   |   |--- speechiness <= 0.20
+|   |   |   |   |   |   |   |   |   |--- year <= 2010.50
+|   |   |   |   |   |   |   |   |   |   |--- speechiness <= 0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 63
+|   |   |   |   |   |   |   |   |   |   |--- speechiness >  0.04
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |   |   |   |   |   |--- year >  2010.50
+|   |   |   |   |   |   |   |   |   |   |--- valence <= 0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 10
+|   |   |   |   |   |   |   |   |   |   |--- valence >  0.87
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 5
+|   |   |   |   |   |   |   |   |--- speechiness >  0.20
+|   |   |   |   |   |   |   |   |   |--- speechiness <= 0.32
+|   |   |   |   |   |   |   |   |   |   |--- class: 67
+|   |   |   |   |   |   |   |   |   |--- speechiness >  0.32
+|   |   |   |   |   |   |   |   |   |   |--- liveness <= 0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 63
+|   |   |   |   |   |   |   |   |   |   |--- liveness >  0.09
+|   |   |   |   |   |   |   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |--- year >  2017.50
+|   |   |   |   |--- instrumentalness <= 0.00
+|   |   |   |   |   |--- duration_ms <= 200723.00
+|   |   |   |   |   |   |--- speechiness <= 0.32
+|   |   |   |   |   |   |   |--- danceability <= 0.79
+|   |   |   |   |   |   |   |   |--- mode <= 0.50
+|   |   |   |   |   |   |   |   |   |--- key <= 7.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 63
+|   |   |   |   |   |   |   |   |   |--- key >  7.00
+|   |   |   |   |   |   |   |   |   |   |--- class: 78
+|   |   |   |   |   |   |   |   |--- mode >  0.50
+|   |   |   |   |   |   |   |   |   |--- loudness <= -4.17
+|   |   |   |   |   |   |   |   |   |   |--- class: 79
+|   |   |   |   |   |   |   |   |   |--- loudness >  -4.17
+|   |   |   |   |   |   |   |   |   |   |--- energy <= 0.81
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 75
+|   |   |   |   |   |   |   |   |   |   |--- energy >  0.81
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 71
+|   |   |   |   |   |   |   |--- danceability >  0.79
+|   |   |   |   |   |   |   |   |--- valence <= 0.84
+|   |   |   |   |   |   |   |   |   |--- class: 69
+|   |   |   |   |   |   |   |   |--- valence >  0.84
+|   |   |   |   |   |   |   |   |   |--- duration_ms <= 174245.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 67
+|   |   |   |   |   |   |   |   |   |--- duration_ms >  174245.50
+|   |   |   |   |   |   |   |   |   |   |--- mode <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 78
+|   |   |   |   |   |   |   |   |   |   |--- mode >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 71
+|   |   |   |   |   |   |--- speechiness >  0.32
+|   |   |   |   |   |   |   |--- valence <= 0.77
+|   |   |   |   |   |   |   |   |--- class: 77
+|   |   |   |   |   |   |   |--- valence >  0.77
+|   |   |   |   |   |   |   |   |--- class: 72
+|   |   |   |   |   |--- duration_ms >  200723.00
+|   |   |   |   |   |   |--- energy <= 0.85
+|   |   |   |   |   |   |   |--- valence <= 0.73
+|   |   |   |   |   |   |   |   |--- class: 72
+|   |   |   |   |   |   |   |--- valence >  0.73
+|   |   |   |   |   |   |   |   |--- loudness <= -5.90
+|   |   |   |   |   |   |   |   |   |--- class: 43
+|   |   |   |   |   |   |   |   |--- loudness >  -5.90
+|   |   |   |   |   |   |   |   |   |--- danceability <= 0.80
+|   |   |   |   |   |   |   |   |   |   |--- liveness <= 0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 70
+|   |   |   |   |   |   |   |   |   |   |--- liveness >  0.54
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- danceability >  0.80
+|   |   |   |   |   |   |   |   |   |   |--- duration_ms <= 207553.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 72
+|   |   |   |   |   |   |   |   |   |   |--- duration_ms >  207553.00
+|   |   |   |   |   |   |   |   |   |   |   |--- class: 54
+|   |   |   |   |   |   |--- energy >  0.85
+|   |   |   |   |   |   |   |--- energy <= 0.88
+|   |   |   |   |   |   |   |   |--- class: 35
+|   |   |   |   |   |   |   |--- energy >  0.88
+|   |   |   |   |   |   |   |   |--- class: 65
+|   |   |   |   |--- instrumentalness >  0.00
+|   |   |   |   |   |--- energy <= 0.69
+|   |   |   |   |   |   |--- class: 57
+|   |   |   |   |   |--- energy >  0.69
+|   |   |   |   |   |   |--- loudness <= -5.89
+|   |   |   |   |   |   |   |--- class: 77
+|   |   |   |   |   |   |--- loudness >  -5.89
+|   |   |   |   |   |   |   |--- liveness <= 0.12
+|   |   |   |   |   |   |   |   |--- class: 81
+|   |   |   |   |   |   |   |--- liveness >  0.12
+|   |   |   |   |   |   |   |   |--- key <= 8.50
+|   |   |   |   |   |   |   |   |   |--- class: 63
+|   |   |   |   |   |   |   |   |--- key >  8.50
+|   |   |   |   |   |   |   |   |   |--- mode <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 74
+|   |   |   |   |   |   |   |   |   |--- mode >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- class: 75
