@@ -10,8 +10,8 @@ ROOT = os.path.dirname(os.path.abspath(__file__))  # root directory of this code
 
 parser = argparse.ArgumentParser(description="Parse input from Kaggle CSV data for song popularity prediction.")
 parser.add_argument('-x', '--data',
-                    help='Path to the desired data file, defaults to ROOT/data.txt',
-                    default=os.path.join(ROOT, 'data.txt'))
+                    help='Path to the desired data file, defaults to ROOT/songs_normalize.csv',
+                    default=os.path.join(ROOT, 'songs_normalize.csv'))
 parser.add_argument('-y', '--labels',
                     help='Path to file where labels will be saved, defaults to ROOT/labels.txt',
                     default=os.path.join(ROOT, 'labels.txt'))
