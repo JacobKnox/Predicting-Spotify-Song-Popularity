@@ -6,10 +6,9 @@ import os
 import pdb
 import matplotlib.pyplot as plt
 from keras.models import Sequential
-from keras.layers import Input, Dense
+from keras.layers import Input, Dense, BatchNormalization
 from keras.optimizers import SGD, Adam
 from keras.callbacks import EarlyStopping
-from keras.utils import to_categorical
 import tensorflow as tf
 
 ROOT = os.path.dirname(os.path.dirname(__file__)) # Root directory of this code
@@ -22,17 +21,18 @@ def main():
     # Load the data from these files and split them into training and testing
     x = np.loadtxt(datafile, delimiter=" ", ndmin=2)
     y = np.loadtxt(labelfile, dtype=int)
-    y = y / np.max(y) # Scale the target labels to be between 0-1
+    y_scaled = y / np.max(y) # Scale the target labels to be between 0-1
     train_test_split = int(0.75 * len(x))
     x_train, x_test = x[:train_test_split, :], x[train_test_split:, :]
-    y_train, y_test = y[:train_test_split], y[train_test_split:]
+    y_train, y_test = y_scaled[:train_test_split], y_scaled[train_test_split:]
     _, numInputs = x_train.shape
 
     # Create the neural network
     model = Sequential()
     model.add(Input(shape=(numInputs,)))
-    model.add(Dense(units=500, activation='relu', name='hidden1'))
-    model.add(Dense(units=500, activation='sigmoid', name='hidden2'))
+    model.add(Dense(units=1000, activation='relu', name='hidden1'))
+    model.add(Dense(units=1000, activation='relu', name='hidden2'))
+    model.add(Dense(units=1000, activation='relu', name='hidden3'))
     model.add(Dense(units=1, activation='sigmoid', name='output'))
     model.summary()
 
@@ -40,24 +40,14 @@ def main():
 
     model.compile(
         loss='mse',
-        optimizer=SGD(learning_rate=0.01),
-        metrics=['accuracy']
-    )
-
-    # Add an Early Stopping callback
-    callback = EarlyStopping(
-        monitor='loss',
-        min_delta=1e-3,
-        patience=10,
-        verbose=1
+        optimizer=Adam(learning_rate=0.02)
     )
 
     # Train the network
     history = model.fit(x_train, y_train,
-        batch_size=10,
+        batch_size=50,
         epochs=100,
         verbose=1,
-        callbacks=[callback],
         validation_data=(x_test, y_test)
     )
 
@@ -73,12 +63,15 @@ def main():
 
     # Plot the performance over time
     plt.subplots()
-    plt.plot(history.history['accuracy'], label='training accuracy')
-    plt.plot(history.history['val_accuracy'], label='testing accuracy')
+    plt.plot(history.history['loss'], label='training loss')
+    plt.plot(history.history['val_loss'], label='testing loss')
     plt.xlabel("Epoch")
-    plt.ylabel("Accuracy")
-    plt.legend(loc='lower right')
-    plt.show()
+    plt.ylabel("Loss")
+    plt.legend(loc='upper right')
+    plt.show(block=False)
+
+    pred = model.predict(x_test)
+    differences = np.absolute(pred.reshape(len(pred),) - y_test)
 
 if __name__ == "__main__":
     main()
