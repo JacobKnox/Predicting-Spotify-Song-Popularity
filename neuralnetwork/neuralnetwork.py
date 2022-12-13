@@ -8,8 +8,6 @@ import matplotlib.pyplot as plt
 from keras.models import Sequential
 from keras.layers import Input, Dense, BatchNormalization
 from keras.optimizers import SGD, Adam
-from keras.callbacks import EarlyStopping
-import tensorflow as tf
 
 ROOT = os.path.dirname(os.path.dirname(__file__)) # Root directory of this code
 
